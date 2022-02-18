@@ -4,7 +4,9 @@ plugins {
 }
 
 pmd {
-    toolVersion = "6.39.0"
+    toolVersion = '6.39.0'
+    ruleSetFiles = files("pmd.xml")
+    ruleSets = []
 }
 
 repositories {

@@ -7,11 +7,16 @@
 
 <description>My ruleset</description>
 <rule ref="category/java/codestyle.xml">
+    <exclude name="NoPackage"/>
+    <exclude name="LocalVariableCouldBeFinal"/>
+    <exclude name="MethodArgumentCouldBeFinal"/> 
 </rule>
 <rule ref="category/java/errorprone.xml">
+
 </rule>
-<rule ref="category/java/bestpractices.xml">
+<rule ref="category/java/design.xml">
+    <exclude name="LawOfDemeter"/>
 </rule>
-<rule ref="category/java/performance.xml"></rule>
+
 
 </ruleset>
