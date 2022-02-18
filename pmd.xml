@@ -4,6 +4,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 https://pmd.sourceforge.io/ruleset_2_0_0.xsd">
 
+<exclude-pattern>.*/src/main/java/Move.java</exclude-pattern>
+<exclude-pattern>.*/src/main/java/Monster.java</exclude-pattern>
+<exclude-pattern>.*/src/main/java/HumanPlayer.java</exclude-pattern>
+<exclude-pattern>.*/src/main/java/GameDriver.java</exclude-pattern>
+<exclude-pattern>.*/src/main/java/CPUPlayer.java</exclude-pattern>
+
+
 
 <description>My ruleset</description>
 <rule ref="category/java/codestyle.xml">
